@@ -1,5 +1,5 @@
 $full-width: 710px;
-$background-color: #eff;
+$background-color: #cff;
 $link-color: #09c;
 $visited-link-color: #069;
 
@@ -16,7 +16,7 @@ header {
 
   img {
     padding: 1em;
-    background: none;
+    background: white;
   }
 }
 
@@ -67,11 +67,11 @@ nav {
       a {
         padding: 0 5px;
         font-weight: bold;
-
+      
         &:visited {
           color: $link-color;
         }
-
+      
         &:hover {
           text-decoration: underline;
         }
