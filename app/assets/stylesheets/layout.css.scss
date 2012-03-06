@@ -1,5 +1,5 @@
 $full-width: 710px;
-$background-color: #cff;
+$background-color: #aaa;
 $link-color: #09c;
 $visited-link-color: #069;
 
@@ -16,7 +16,7 @@ header {
 
   img {
     padding: 1em;
-    background: white;
+    background: none;
   }
 }
 
@@ -24,7 +24,7 @@ section {
   margin-top: 1em;
   font-size: 120%;
   padding: 20px;
-  background: white;
+  background: none;
 
   h1 {
     font-size: 200%;
@@ -65,7 +65,7 @@ nav {
       padding: 0.2em 0;
 
       a {
-        padding: 0 5px;
+        padding: 0 15px;
         font-weight: bold;
       
         &:visited {
@@ -88,8 +88,8 @@ a.signup_button {
   display: block;
   text-align: center;
   width: 190px;
-  color: white;
-  background: #006400;
+  color: red;
+  background: yellow;
   font-size: 150%;
   font-weight: bold;
   padding: 20px;
@@ -98,9 +98,9 @@ a.signup_button {
 /* Round corners */
 
 .round {
-  -moz-border-radius:    10px;
-  -webkit-border-radius: 10px;
-  border-radius:         10px;
+  -moz-border-radius:    20px;
+  -webkit-border-radius: 20px;
+  border-radius:         20px;
 }
 
 footer {
